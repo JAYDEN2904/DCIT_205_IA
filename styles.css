@@ -54,7 +54,7 @@ nav img{
 }
 .text-box{
   width: 90%;
-  color: white;
+  color: black;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -220,4 +220,14 @@ h3 {
   .row{
     flex-direction: column;
   }
+}
+.departmental-events {
+  padding-top: 50px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.events-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
