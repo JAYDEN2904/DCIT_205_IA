@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>UG | Department of Computer Science</title>
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body>
+    <section class="header">
+      <video autoplay loop muted plays-inline class="back-video">
+        <source src="videos/video-bg.mp4" type="video/mp4">
+      </video>
+      <nav>
+        <a href="Homepage.html"><img src="Logos/comScience_logo.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i><img class="menu-icon" src="Icons/hamburger-menu.svg" onclick="closeMenu()"></i>
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#catalog">CATALOG</a></li>
+            <li><a href="#events">EVENTS</a></li>
+          </ul>
+        </div>
+        <i class="menu-icon"><img src="Icons/hamburger-menu.svg" onclick="openMenu()"></i>
+        
+      </nav>
+
+      <div class="text-box">
+        <h1>Welcome To The Computer Science Department</h1>
+        <p>Where Innovation Meets Imagination! Explore the Boundless World of Technology, Unleash Your Creativity, and Shape the Future with Us. Join a Community of Visionaries, Problem Solvers, and Innovators. <br>Let's Code the Future Together!</p>
+        <a href="" class="learn-more">Learn More</a>
+      </div>
+    </section>
+
+
+    <section class="courses">
+      <h1>Courses We Offer</h1>
+      <p>Unleash Your Potential with  Our Cutting-Edge Courses.<br>Join Us and Master the Skills That Will Shape Tomorrow's Technology Landscape!</p>
+
+    <div class="row">
+      <div class="course-column">
+        <h3>Short Courses</h3>
+        <p>Our eight week intensive certificate course is open to senior high school graduates, tertiary students, school graduates, workers and the general public</p>
+      </div>
+      <div class="course-column">
+        <h3>Undergraduate Programmes</h3>
+        <p>Open the door to sought-after technology careers with a world-class Bachelor of Science in Computer Science degree</p>
+      </div>
+      <div class="course-column">
+        <h3>MPhil and Msc Programmes</h3>
+        <p>Embrace world class graduate education with unique- blend of cutting-edge research and industry experience.</p>
+      </div>
+      <div class="course-column">
+        <h3>PhD Programmes</h3>
+        <p>Our PHDs lead the effort to extend the boundaries of knowledge through quality and industry relevant research</p>
+      </div>
+    </div>
+    </section>
+    
+    <section class="events">
+      
+    </section>
+
+
+<!--Javascript for menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function openMenu(){
+        navLinks.style.right = "0";
+      }
+      function closeMenu(){
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
