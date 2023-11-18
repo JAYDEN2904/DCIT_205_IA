@@ -38,7 +38,7 @@ nav img{
 .nav-links ul li a{
   color: white;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 16px;
 }
 .nav-links ul li::after{
   content: '';
@@ -65,19 +65,13 @@ nav img{
   font-size: 63px;
   transition: 0.5s;
 }
-.text-box h1:hover{
-  -webkit-text-stroke: 2px lightblue;
-  color: transparent;
-}
+
 .text-box p{
   margin: 11px 0 41px;
   font-size: 20px;
   color: white;  
 }
-.text-box p:hover{
-  -webkit-text-stroke: 1px lightblue;
-  color: transparent;
-}
+
 .learn-more {
   display: inline-block;
   text-decoration: none;
@@ -219,5 +213,68 @@ h3 {
 @media(max-width: 700px){
   .row{
     flex-direction: column;
+  }
+}
+
+.departmental-events{
+  padding: 150px 8% 120px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1.5rem;
+}
+.events-image img{
+  max-width: 530px;
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.events-text h3{
+  color: black;
+  font-size: 30px;
+  line-height: 1;
+}
+.events-text p{
+  color: #777;
+  letter-spacing: 1px;
+  margin-bottom: 4rem;
+  margin-top: 10px;
+  align-items: center;
+  margin-left: 80px;
+}
+.events-button{
+  width: 180px;
+  height: 35px;
+  background: white;
+  border: 2px solid black;
+  color: black;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+.events-button:hover{
+  background: lightblue;
+  color: white;
+}
+@media (max-width: 700px){
+  .departmental-events{
+      grid-template-columns: 1fr;
+  }
+  .events-image{
+      text-align: center;
+      order: 2;
+  }
+  .events-image img{
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+  }
+  .events-button {
+    margin-right: 200px;
+    margin-bottom: 50px;
   }
 }
