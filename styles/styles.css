@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 .header {
   min-height: 100vh;
@@ -238,7 +239,7 @@ h3 {
 .events-text p{
   color: #777;
   letter-spacing: 1px;
-  margin-bottom: 4rem;
+  margin-bottom: 64px;
   margin-top: 10px;
   align-items: center;
   margin-left: 80px;
@@ -277,4 +278,60 @@ h3 {
     margin-right: 200px;
     margin-bottom: 50px;
   }
+}
+
+.banner {
+  width: 100%;
+  height: 60vh;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/under_grad_main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-content {
+  text-align: center;
+  padding: 150px 10% 10px;
+}
+.banner-content h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 0px 1px 1px black;
+}
+.banner-content h3 {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+.banner-content h5 {
+  color: black;
+  font-size: 18px;
+  margin-top: 5px;
+  font-weight: 500;
+
+}
+
+.banner-content button a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.banner-content button {
+  width: 105px;
+  height: 36px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background: transparent;
+  border: 2px solid white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.banner-content button:hover{
+  border: none;
+  background: 388b6f;
+}
+.back-image {
+  position: absolute;
+  
+
 }
