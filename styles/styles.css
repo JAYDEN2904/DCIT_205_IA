@@ -248,7 +248,7 @@ h3 {
   margin-left: 80px;
 }
 .events-button{
-  width: 180px;
+  width: 190px;
   height: 35px;
   background: white;
   border: 2px solid black;
@@ -983,4 +983,12 @@ tr td{
 }
 .events-image-comm:hover img {
   transform: scale(1.2);
+}
+.events-text button a {
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbb;
+  display: block;
 }
