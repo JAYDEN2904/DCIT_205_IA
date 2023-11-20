@@ -790,3 +790,8 @@ tr td:first-child{
 tr td{
   padding-top: 20px;
 }
+.event-container h3 {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
