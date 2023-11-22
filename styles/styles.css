@@ -1,3 +1,4 @@
+/*css for homepage*/
 *{
   margin: 0;
   padding: 0;
@@ -449,6 +450,7 @@ h3 {
   margin-top: 16px;
 }
 
+/*css for footer*/
 .footer{
   background-color: #24262b;
   padding: 70px 0;
@@ -699,6 +701,8 @@ ul{
   margin: 0 auto;
   background-color: blue;
 }
+
+/*Contact Page*/
 *{
   margin: 0;
   padding: 0;
@@ -792,6 +796,8 @@ tr td:first-child{
 tr td{
   padding-top: 20px;
 }
+
+/*Events Page*/
 .event-container h3 {
   margin: 0;
   padding: 0;
@@ -819,8 +825,6 @@ tr td{
   margin-bottom: 25px;
   position: relative;
 }
-
-
 .events-heading h1::after {
   content: "";
   position: absolute;
