@@ -1,4 +1,8 @@
 /*Staff Page*/
+*{
+  margin: 0;
+  padding: 0;
+}
 .staff-body {
   margin: 0px;
   padding: 0px;
