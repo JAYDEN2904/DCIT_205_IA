@@ -1,0 +1,94 @@
+/*Staff Page*/
+.staff-body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background:  rgb(218, 204, 204)
+}
+.staff-section {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.staff-section .staff-container {
+  width: 80%;
+  margin: auto;
+}
+.staff-section .staff-container .staff-row {
+  width: 70%;
+  margin: auto;
+}
+.staff-section .staff-container .staff-row .staff-title {
+  text-align: center;
+  margin-top: 50px;
+}
+.staff-section .staff-container .staff-row .staff-title h1 {
+ font-size: 35px;
+ text-transform: uppercase;
+ letter-spacing: 1.5px;
+ color: #252b24;
+}
+.staff-section .staff-container .staff-row .staff-title p {
+  font-size: 18px;
+  font-family: sans-serif;
+  margin: 30px 0px;
+  color: #a3a3a3;
+}
+.staff-section .staff-container .staff-card{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+.staff-section .staff-container .staff-card .profile-card {
+  width: 100%;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  flex-direction: column;
+}
+.staff-section .staff-container .staff-card .profile-card:hover {
+  background-color: #f3f3f3;
+  transition: 0.4s;
+}
+.staff-section .staff-container .staff-card .profile-card .staff-image-section img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #ffff;
+}
+.staff-section .staff-container .staff-card .profile-card .staff-content {
+  width: 100%;
+  text-align: center;
+}
+.staff-section .staff-container .staff-card .profile-card .staff-content h3 {
+  font-size: 27px;
+  margin-top: 10px;
+  letter-spacing: 1.5px;
+  color: #252b24;
+}
+.staff-section .staff-container .staff-card .profile-card .staff-content h4 {
+  font-size: 17px;
+  margin-top: 10px;
+  letter-spacing: 1.5px;
+  color: #6e6e6e;
+}
+.staff-section .staff-container .staff-card .profile-card .staff-content p {
+  font-size: 15px;
+  margin: 15px 0px;
+  line-height: 1.5;
+  color: #6e6e6e;
+}
+@media screen and (max-width: 900px) {
+  .staff-section .staff-container .staff-card{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 900px) {
+  .staff-section .staff-container .staff-card{
+    grid-template-columns: 1fr;
+  }
+}

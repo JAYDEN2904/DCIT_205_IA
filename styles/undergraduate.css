@@ -1,0 +1,68 @@
+/*Undergraduate*/
+.undergraduate-body {
+  background:  rgb(218, 204, 204);
+}
+#accordion {
+  margin: 100px auto;
+  width: 600px;
+}
+.accordion-content-heading h1::after {
+  content: "";
+  position: absolute;
+  width: 42%;
+  height: 4px;
+  display: block;
+  margin: 0 auto;
+  background-color: #c20000;
+}
+#accordion li{
+  list-style: none;
+  width: 100%;
+  margin-bottom: 10px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 4px;
+}
+#accordion li label {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #c20000;
+}
+#accordion li label span {
+  transform: rotate(90deg);
+  font-size: 24px;
+  color: #333;
+}
+#accordion label + input[type="radio"] {
+  display: none;
+}
+#accordion .accordion-content {
+  padding: 0 10px;
+  line-height: 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+#accordion label + input[type="radio"]:checked + .accordion-content {
+  max-height: 500px;
+}
+.undergraduate-header {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+}
+.undergraduate-header h1::after {
+  content: "";
+  position: relative;
+  width: 60%;
+  height: 4px;
+  display: block;
+  margin: 0 auto;
+  background-color: #c20000;
+}
