@@ -1,4 +1,9 @@
 /*css for About Page*/
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
 .about-heading {
   width: 90%;
   display: flex;

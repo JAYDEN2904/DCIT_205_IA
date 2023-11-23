@@ -1,4 +1,9 @@
 /*Events Page*/
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
 .event-container h3 {
   margin: 0;
   padding: 0;
