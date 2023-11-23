@@ -1291,9 +1291,11 @@ tr td{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  background:  rgb(218, 204, 204)
 }
 .staff-section {
   width: 100%;
+  margin-bottom: 30px;
 }
 .staff-section .staff-container {
   width: 80%;
