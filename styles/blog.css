@@ -1,0 +1,97 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.blog-section {
+  width: 100;
+}
+.blog-section .blog-section-content {
+  width: 85%;
+  margin: 20px auto;
+}
+.blog-section .blog-section-content .blog-title {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+.blog-section .blog-section-content .blog-title h1{
+  font-size: 40px;
+  color: blue;
+  text-transform: uppercase;
+}
+.blog-section .blog-section-content .blog-title p{
+  font-size: 18px;
+  color: #6a6a6a;
+  margin-top: 20px;
+}
+.blog-section .blog-section-content .blog-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  margin: 25px auto;
+}
+.image-1{
+  height: 360px;
+  width: 400px;
+  margin-top: 10px;
+}
+.image-2{
+  height: 360px;
+  width: 400px;
+  margin-top: 10px;
+}
+.image-3{
+  height: 360px;
+  width: 400px;
+  margin-top: 10px;
+}
+.blog-section .blog-section-content .blog-cards .blog-card{
+  width: 100%;
+  background-color: gold;
+  position: relative;
+}
+.blog-section .blog-section-content .blog-cards .blog-card img {
+ width: 100%;
+ height: auto;
+}
+.blog-section .blog-section-content .blog-cards .blog-card .article {
+  padding: 15px 20px;
+}
+.blog-section .blog-section-content .blog-cards .blog-card .article h4 {
+  font-size: 24px;
+  color: #4a4a4a;
+}
+.blog-section .blog-section-content .blog-cards .blog-card .article p {
+  font-size: 16px;
+  margin: 10px 0px;
+  color: #6a6a6a;
+}
+.blog-section .blog-section-content .blog-cards .blog-card a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #25c5c5;
+  padding: 8px 15px;
+  margin-left: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.blog-section .blog-section-content .blog-cards .blog-card .posted-date p{
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  background-color: #25c5c5;
+  padding: 6px 15px;
+}
+
+@media screen and (ax-width: 992px) {
+  .blog-section .blog-section-content .blog-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (ax-width: 768px) {
+  .blog-section .blog-section-content .blog-cards {
+    grid-template-columns: 1fr;
+  }
+}
