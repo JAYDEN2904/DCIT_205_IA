@@ -1,5 +1,8 @@
-#DCIT_205_IA
+# DCIT_205_IA
 
+This README provides an overview of the website, including setup instructions, author information, screenshots, and lessons learned.
+
+# Introduction
 Welcome to the University of Ghana Computer Science Department website. I created this website as a project to showcase my skils and knowledge in web development. The website features various pages about the computer science departmnet and also to demonstrate different aspects of web design and development. 
 This website can also serve as hub for students, faculty or students to access information about the computer science department.
 
@@ -34,3 +37,9 @@ STUDENT ID: 11252890
 ![News Page](<Screenshots/Web capture_25-11-2023_10548_127.0.0.1.jpeg>)
 
 ![Undergraduate Courses Page](<Screenshots/Web capture_25-11-2023_105657_127.0.0.1.jpeg>)
+
+# Lessons Learned
+The project was challenging as it required a lot of time and effort to complete. This project has helped me to learn valuable skills in HTML,CSS,Javascript and responsive web design which will help me in real-world projects. The project also helped me gain experience in building or creating a professional website and how to manage the development of the website from start to finish. This project has also helped me to gain much needed knowledge about github and all that it entails. I have been able to learn various git commands which makes maanging of code easier.
+
+Thank you for visiting my website.
+
