@@ -15,3 +15,22 @@ NAME: OSAFO JAYDEN JOHN BOAMAH
 STUDENT ID: 11252890
 
 # Screenshots
+![Home Page](<Screenshots/Web capture_23-11-2023_201413_127.0.0.1.jpeg>)
+
+![About Us Page](<Screenshots/Web capture_25-11-2023_101459_127.0.0.1.jpeg>)
+
+![Contact Page](<Screenshots/Web capture_23-11-2023_20229_127.0.0.1.jpeg>)
+
+![Sudent Complaint Form Page](<Screenshots/Web capture_23-11-2023_20255_127.0.0.1.jpeg>)
+
+![Events Page](<Screenshots/Web capture_23-11-2023_202335_127.0.0.1.jpeg>)
+
+![Staff Page](<Screenshots/Web capture_23-11-2023_202237_127.0.0.1.jpeg>)
+
+![Short course registration form page](<Screenshots/Web capture_23-11-2023_202358_127.0.0.1.jpeg>)
+
+![Entry Requirements Page](<Screenshots/Web capture_25-11-2023_105419_127.0.0.1.jpeg>)
+
+![News Page](<Screenshots/Web capture_25-11-2023_10548_127.0.0.1.jpeg>)
+
+![Undergraduate Courses Page](<Screenshots/Web capture_25-11-2023_105657_127.0.0.1.jpeg>)

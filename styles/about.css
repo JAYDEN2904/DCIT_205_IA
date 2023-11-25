@@ -27,7 +27,7 @@
   height: 4px;
   display: block;
   margin: 0 auto;
-  background-color: blue;
+  background-color: #e91e63;
 }
 .about-heading p{
   font-size: 18px;
@@ -158,7 +158,7 @@
   height: 4px;
   display: block;
   margin: 0 auto;
-  background-color: blue;
+  background-color: #e91e63;
 }
 .about-content-comm h2::after {
   content: "";
@@ -167,5 +167,5 @@
   height: 4px;
   display: block;
   margin: 0 auto;
-  background-color: blue;
+  background-color: #e91e63;
 }
