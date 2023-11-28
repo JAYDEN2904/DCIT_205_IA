@@ -34,7 +34,7 @@ STUDENT ID: 11252890
 
 ![Entry Requirements Page](<Screenshots/Web capture_25-11-2023_105419_127.0.0.1.jpeg>)
 
-![News Page](<Screenshots/Web capture_25-11-2023_10548_127.0.0.1.jpeg>)
+![News Page](<Screenshots/Web capture_28-11-2023_134423_127.0.0.1.jpeg>)
 
 ![Undergraduate Courses Page](<Screenshots/Web capture_25-11-2023_105657_127.0.0.1.jpeg>)
 
